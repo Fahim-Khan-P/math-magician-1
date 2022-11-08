@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.screen {
+  background-color: gray;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 350px;
+  height: 300px;
+  cursor: pointer;
+}
+
+button {
+  border: 1px solid gray;
+}
+
+.wide {
+  grid-column-end: span 2;
+}
+
+.orange-color {
+  background-color: rgb(228, 121, 33);
+}
