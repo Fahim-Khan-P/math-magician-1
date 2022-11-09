@@ -1,5 +1,7 @@
 import React from 'react';
 import './calculator.css';
+import '../logic/calculate';
+import '../logic/operate';
 
 class Calculator extends React.PureComponent {
   render() {
