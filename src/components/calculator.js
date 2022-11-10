@@ -4,13 +4,14 @@ import calculate from '../logic/calculate';
 import '../logic/operate';
 
 class Calculator extends React.PureComponent {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       total: null,
       next: null,
       operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(e) {
@@ -29,25 +30,25 @@ class Calculator extends React.PureComponent {
           {' '}
         </div>
         <div className="buttons">
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>AC</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>+/-</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>%</button>
-          <button type="button" className="orange-color" onClick={(e) => { this.handleClick(e); }}>÷</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>7</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>8</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>9</button>
-          <button type="button" className="orange-color" onClick={(e) => { this.handleClick(e); }}>x</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>4</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>5</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>6</button>
-          <button type="button" className="orange-color" onClick={(e) => { this.handleClick(e); }}>-</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>1</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>2</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>3</button>
-          <button type="button" className="orange-color" onClick={(e) => { this.handleClick(e); }}>+</button>
-          <button type="button" className="wide" onClick={(e) => { this.handleClick(e); }}>0</button>
-          <button type="button" onClick={(e) => { this.handleClick(e); }}>.</button>
-          <button type="button" className="orange-color" onClick={(e) => { this.handleClick(e); }}>=</button>
+          <button type="button" onClick={this.handleClick}>AC</button>
+          <button type="button" onClick={this.handleClick}>+/-</button>
+          <button type="button" onClick={this.handleClick}>%</button>
+          <button type="button" className="orange-color" onClick={this.handleClick}>÷</button>
+          <button type="button" onClick={this.handleClick}>7</button>
+          <button type="button" onClick={this.handleClick}>8</button>
+          <button type="button" onClick={this.handleClick}>9</button>
+          <button type="button" className="orange-color" onClick={this.handleClick}>x</button>
+          <button type="button" onClick={this.handleClick}>4</button>
+          <button type="button" onClick={this.handleClick}>5</button>
+          <button type="button" onClick={this.handleClick}>6</button>
+          <button type="button" className="orange-color" onClick={this.handleClick}>-</button>
+          <button type="button" onClick={this.handleClick}>1</button>
+          <button type="button" onClick={this.handleClick}>2</button>
+          <button type="button" onClick={this.handleClick}>3</button>
+          <button type="button" className="orange-color" onClick={this.handleClick}>+</button>
+          <button type="button" className="wide" onClick={this.handleClick}>0</button>
+          <button type="button" onClick={this.handleClick}>.</button>
+          <button type="button" className="orange-color" onClick={this.handleClick}>=</button>
         </div>
       </div>
     );
