@@ -25,6 +25,7 @@ body {
 
 button {
   border: 1px solid gray;
+  cursor: pointer;
 }
 
 .wide {
