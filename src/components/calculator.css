@@ -30,6 +30,7 @@ button {
   border: 1px solid rgb(255, 255, 255);
   cursor: pointer;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .wide {
