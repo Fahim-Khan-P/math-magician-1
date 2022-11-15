@@ -1,9 +1,8 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background-color: aquamarine;
+  margin-left: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .screen {
@@ -17,6 +16,23 @@ body {
   border-radius: 5px;
   font-size: 20px;
   border: 1px solid white;
+  width: 390px;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-right: 40px;
+  border: 2px solid black;
+  width: 100vh;
 }
 
 .buttons {
@@ -46,4 +62,32 @@ button:hover {
 
 .orange-color {
   background-color: rgb(228, 121, 33);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  margin: 10px;
+}
+
+.math-title {
+  font-size: 30px;
+}
+
+.tags {
+  margin-right: 10px;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
 }
