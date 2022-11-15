@@ -33,6 +33,7 @@ body {
   margin-right: 40px;
   border: 2px solid black;
   width: 100vh;
+  border-radius: 10px;
 }
 
 .buttons {
