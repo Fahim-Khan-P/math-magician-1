@@ -10,6 +10,19 @@ const Home = () => (
       However, more sophisticated calculators can handle exponential operations,
       square roots, logarithms, trigonometric functions and hyperbolic functions. Internally,
       some calculators perform all these functions by repeated addition processes.
+
+      <br />
+
+      OR
+
+      <br />
+
+      A calculator is a machine which allows people to do math operations more easily.
+      For example, most calculators will add, subtract, multiply, and divide. There are
+      simple basic calculators,
+      scientific calculators & special purpose calculators (financial calculators etc.).
+      Some also do square roots, and more complex calculators can help with calculus and
+      draw function graphs.
     </p>
   </div>
 );
