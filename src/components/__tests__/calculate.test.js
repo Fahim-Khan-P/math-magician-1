@@ -9,7 +9,7 @@ describe('Test for the calculation function', () => {
             operation: '-',
         };
         const returnedValue = calculate(dataForCalculation, button);
-        expect(returnedValue.total).tobe('4');
+        expect(returnedValue.total).toBe('4');
     });
 
     it('Should perform the Addtion operation correctly', () => {
@@ -20,7 +20,7 @@ describe('Test for the calculation function', () => {
             operation:'+',
         };
         const returnedValue = calculate(dataForCalculation, button);
-        expect(returnedValue.total).tobe('12');
+        expect(returnedValue.total).toBe('12');
     });
 
     it('Should perform the multiplication operation correctly', () => {
@@ -31,7 +31,7 @@ describe('Test for the calculation function', () => {
             operation: 'x',
         };
         const returnedValue = calculate(dataForCalculation, button);
-        expect(returnedValue.total).tobe('32');
+        expect(returnedValue.total).toBe('32');
     });
 
     it('Should perform the divisoin operation', () => {
@@ -42,7 +42,7 @@ describe('Test for the calculation function', () => {
             operation: '÷'
         };
         const returnedValue = calculate(dataForCalculation, button);
-        expect(returnedValue.total).tobe('2');
+        expect(returnedValue.total).toBe('2');
     });
 
     it('Should clean the output screen', () => {
@@ -53,7 +53,7 @@ describe('Test for the calculation function', () => {
             operation: '÷',
         };
         const returnedValue = calculate(dataForCalculation, button);
-        expect(returnedValue.total && returnedValue.next && returnedValue.operation).tobe(null);
+        expect(returnedValue.total && returnedValue.next && returnedValue.operation).toBe(null);
     });
 });
 

@@ -7,7 +7,7 @@ describe('Test for the operate function', () => {
         const operation = '-';
 
         const result = operate(firstNumber, secondNumber, operation);
-        expect(result).tobe('4');
+        expect(result).toBe('4');
     });
 
     it('Should perform the Addition calculation correctly', () => {
@@ -16,7 +16,7 @@ describe('Test for the operate function', () => {
         const operation = '+';
 
         const result = operate(firstNumber, secondNumber, operation);
-        expect(result).tobe('12');
+        expect(result).toBe('12');
     });
 
     it('Should perform the multiplication calculation correctly', () => {
@@ -25,7 +25,7 @@ describe('Test for the operate function', () => {
         const operation = 'x';
 
         const result = operate(firstNumber, secondNumber, operation);
-        expect(result).tobe('32');
+        expect(result).toBe('32');
     });
 
     it('Should perform the division calculation correctly', () => {
@@ -34,7 +34,7 @@ describe('Test for the operate function', () => {
         const operation = '÷';
 
         const result = operate(firstNumber, secondNumber, operation);
-        expect(result).tobe('4');
+        expect(result).toBe('4');
     });
 
     it('Should perform the moduls calculation correctly', () => {
@@ -43,6 +43,6 @@ describe('Test for the operate function', () => {
         const operation = '%';
 
         const result = operate(firstNumber, secondNumber, operation);
-        expect(result).tobe('0');
+        expect(result).toBe('0');
     });
 });
