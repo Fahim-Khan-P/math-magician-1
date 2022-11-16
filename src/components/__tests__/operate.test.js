@@ -37,7 +37,7 @@ describe('Test for the operate function', () => {
         expect(result).tobe('4');
     });
 
-    it('Should perform the modulus calculation correctly', () => {
+    it('Should perform the moduls calculation correctly', () => {
         const firstNumber = 8;
         const secondNumber = 4;
         const operation = '%';
