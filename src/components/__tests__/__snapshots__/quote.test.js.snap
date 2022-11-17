@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote page is rendering correctly 1`] = `
+<p
+  className="quote"
+>
+  I can count all the lovers I have had on one hand...if I am holding a calculator.
+</p>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App rendering 1`] = `
+Array [
+  <nav
+    className="nav-bar"
+  >
+    <h1
+      className="math-title"
+    >
+      Math Magician
+    </h1>
+    <div
+      className="tags"
+    >
+      <a
+        className="link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        className="link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      |
+      <a
+        className="link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </nav>,
+  <div>
+    <h2>
+      Welcome to our Calculator
+    </h2>
+    <p
+      className="info"
+    >
+      A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations. However, more sophisticated calculators can handle exponential operations, square roots, logarithms, trigonometric functions and hyperbolic functions. Internally, some calculators perform all these functions by repeated addition processes.
+      <br />
+      OR
+      <br />
+      A calculator is a machine which allows people to do math operations more easily. For example, most calculators will add, subtract, multiply, and divide. There are simple basic calculators, scientific calculators & special purpose calculators (financial calculators etc.). Some also do square roots, and more complex calculators can help with calculus and draw function graphs.
+    </p>
+  </div>,
+]
+`;
