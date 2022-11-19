@@ -17,7 +17,7 @@ This is a simple calculator
 - Add Structure of calculator that wiil be modified in the next project.
 
 ## Live Deom Link
-This App has not been deployed yet.
+https://timely-semifreddo-a67fe7.netlify.app
 ## Getting Started
 
 1- clone Repo.
