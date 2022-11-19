@@ -74,6 +74,7 @@ button:hover {
 .link {
   margin: 10px;
   box-shadow: 3px 3px 3px black;
+  text-decoration: none;
 }
 
 .math-title {
