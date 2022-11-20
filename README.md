@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 
 > This Project is not dyployed yet.
 
-- [Live Demo Link](N/A)
+- [Live Demo Link](https://timely-semifreddo-a67fe7.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
