@@ -36,7 +36,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Book Store <a name="about-project"></a>](#-book-store-)
+- [📖 Math Magician <a name="about-project"></a>](#-math-magician-)
   - [🛠 Built With <a name="built-with"></a>](#-built-with-)
     - [Tech Stack <a name="tech-stack"></a>](#tech-stack-)
     - [Key Features <a name="key-features"></a>](#key-features-)
@@ -58,11 +58,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Math Magician <a name="about-project"></a>
 
-> Book Store is a website where you can Add and Remove books.
+> Math is a website where you can perform simple calculation.
 
-**Book store** is a React and Redux single page application.
+**Math Magician** is a React single page application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,9 +97,9 @@ After you're finished please remove all the comments and instructions!
 
 > This Project has the following fetures.
 
-- **Add New Book**
-- **Remove Exisiting Book**
-- **Modify Exisiring Book**
+- **It perform Four Basic math operation**
+- **It has three peges**
+- **It is single page application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
