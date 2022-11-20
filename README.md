@@ -133,7 +133,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
  - mkdir my-folder
  - cd my-folder
- - git clone [(git@github.com:SaboorSohaib/book-store.git)]
+ - git clone [(git@github.com:SaboorSohaib/math-magician.git)]
 
 
 ### Install
