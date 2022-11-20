@@ -184,9 +184,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- **Add New Book**
-- **Remove Exisiting Book**
-- **Modify Exisiring Book**
+- **Add advanced math operation**
+- **Add more pages**
+- **Add database to save some operation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
