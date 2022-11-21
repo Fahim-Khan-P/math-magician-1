@@ -93,6 +93,7 @@ button:hover {
 
 .info {
   margin-top: 50px;
+  filter: drop-shadow(6px 8px 6px black);
 }
 
 .quote {
