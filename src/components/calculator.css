@@ -87,6 +87,10 @@ button:hover {
   filter: drop-shadow(6px 8px 6px black);
 }
 
+.welcome {
+  filter: drop-shadow(6px 8px 6px black);
+}
+
 .tags {
   margin-right: 10px;
 }

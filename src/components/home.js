@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <h2>Welcome to our Calculator</h2>
+    <h2 className="welcome">Welcome to our Calculator</h2>
     <p className="info">
       A calculator is a device that performs arithmetic operations on numbers.
       Basic calculators can do only addition, subtraction, multiplication and
