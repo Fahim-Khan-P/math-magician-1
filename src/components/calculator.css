@@ -78,7 +78,7 @@ button:hover {
 }
 
 .link:hover {
-  color: brown;
+  color: rgb(247, 75, 75);
   transform: scale(1.1);
 }
 
